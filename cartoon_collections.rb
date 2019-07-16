@@ -22,5 +22,6 @@ def find_the_cheese(array)
   array.detect do |item|
     if item in cheese_types
       puts item
+    end
   end
 end
